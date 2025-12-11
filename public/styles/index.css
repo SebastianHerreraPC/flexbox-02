@@ -52,8 +52,8 @@ body {
   line-height: 30px;
 }
 .header__image {
-  height: 100%;
-  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 .header__footer {
   margin-top: 32px;
@@ -62,4 +62,53 @@ body {
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.content {
+  line-height: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../assets/images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg")
+    center/cover no-repeat;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.content__title {
+  margin-bottom: 0;
+  font-size: 80px;
+}
+.content__subtitle {
+  font-size: 31px;
+}
+.content__cards {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  max-width: 760px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+  border-radius: 5%;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 420px;
+}
+.cards__img {
+  object-fit: cover;
+  height: 260px;
+  width: 100%;
+}
+.cards__title {
+  font-size: 25px;
+}
+.cards__text {
+  margin: 20px;
 }
