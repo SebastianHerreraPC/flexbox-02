@@ -114,3 +114,45 @@ body {
 .cards__text {
   margin: 20px;
 }
+.events {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.events__content {
+  flex-basis: 580px;
+  flex: 1;
+  min-width: 500px;
+}
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.event__info {
+}
+.event__info-item {
+  display: flex;
+
+  align-items: center;
+  font-weight: 500;
+}
+.material-symbols-outlined {
+  margin-right: 5px;
+}
+.event__info-text {
+}
+.events__description {
+}
+.events__more {
+}
+.events__img {
+  flex: 1;
+  min-width: 400px;
+}
