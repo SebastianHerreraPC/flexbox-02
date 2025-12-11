@@ -25,9 +25,11 @@
             class="nav__logo"
           />
           <ul class="nav__list">
-            <li class="nav__item">Recomendaciones</li>
-            <li class="nav__item">Eventos</li>
-            <li class="nav__item">Suscribete</li>
+            <li class="nav__item">
+              <a href="#Recomendaciones">Recomendaciones</a>
+            </li>
+            <li class="nav__item"><a href="#events">Eventos </a></li>
+            <li class="nav__item"><a href="#sucribe">Únete</a></li>
             <li class="nav__item">Contactos</li>
           </ul>
         </nav>
@@ -51,7 +53,7 @@
         <div class="header__footer">Tu lista de Peliculas, México</div>
       </header>
       <section class="content">
-        <h2 class="content__title">Recomendaciones</h2>
+        <h2 class="content__title" id="Recomendaciones">Recomendaciones</h2>
         <p class="content__subtitle">Los preferidos de Siempre</p>
         <div class="content__cards">
           <div class="cards">
@@ -103,12 +105,13 @@
           </div>
         </div>
       </section>
-      <section class="events">
+      <section class="events" id="events">
         <div class="events__content">
           <h2 class="events__heading">Proximos eventos:</h2>
           <h3 class="events__title">
             Especial Wes Anderson: simetría, color y mundos peculiares
           </h3>
+
           <div class="event__info">
             <div class="event__info-item">
               <span class="material-symbols-outlined"> calendar_clock </span>
@@ -157,6 +160,81 @@
           class="events__img-4"
         />
       </section>
+      <section class="suscribe" id="#sucribe">
+        <h2 class="suscribe__title">Forma parte a Tu Lista de Peliculas</h2>
+        <p class="suscribe__subtitle">
+          Descubre, comparte y forma parte de nuestra comunidad cinéfila.
+        </p>
+        <div class="suscribe__cards">
+          <div class="suscribe__card">
+            <h3 class="suscribe__card-title">
+              Mira una película
+              <span class="material-symbols-outlined"> arrow_right_alt </span>
+            </h3>
+            <p class="suscribe__card-text">
+              Elige cualquier título de nuestra selección especial del mes.
+            </p>
+          </div>
+          <div class="suscribe__card">
+            <h2 class="suscribe__card-title">
+              Califícala
+              <span class="material-symbols-outlined"> arrow_right_alt </span>
+            </h2>
+            <p class="suscribe__card-text">
+              Déjanos tu opinión y forma parte del ranking de la comunidad.
+            </p>
+          </div>
+          <div class="suscribe__card">
+            <h2 class="suscribe__card-title">
+              Escríbenos
+              <span class="material-symbols-outlined"> arrow_right_alt </span>
+            </h2>
+            <p class="suscribe__card-text">
+              Comparte tu experiencia, escena favorita o teoría conspirativa.
+            </p>
+          </div>
+          <div class="suscribe__card">
+            <h2 class="suscribe__card-title">
+              Vuélvete miembro
+              <span class="material-symbols-outlined"> arrow_right_alt </span>
+            </h2>
+            <p class="suscribe__card-text">
+              Accede a eventos, estrenos exclusivos y contenido detrás de
+              cámaras.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__colums">
+          <div class="footer__column">
+            <img
+              src="./public/assets/images/zorro-white.png"
+              alt=""
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer_columns-block">
+            <div class="footer__column_content_hours">
+              <p class="footer__column-header">Horarios</p>
+              <div class="footer__column-text">
+                Lunes a Viernes: 10:00 – 20:00
+              </div>
+              <div class="footer__column-text">Sábados: 11:00 – 18:00</div>
+            </div>
+
+            <div class="footer__column_content_social">
+              <p class="footer__column-header">Contacto</p>
+              <div class="footer__column-text">info@tulistadepeliculas.com</div>
+              <div class="footer__column-text">Síguenos en redes</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copyright">
+          © 2025 CineVerse. Todos los derechos reservados.
+        </div>
+      </footer>
     </div>
   </body>
 </html>

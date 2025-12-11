@@ -10,9 +10,9 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 20px;
-  padding: 30px 80px 40px;
 }
 .header {
+  padding: 30px 80px 40px;
   box-sizing: border-box;
   height: 100%;
 }
@@ -117,6 +117,7 @@ body {
 .events {
   display: flex;
   position: relative;
+  padding: 30px 80px 40px;
   justify-content: space-between;
   box-sizing: border-box;
 }
@@ -140,7 +141,6 @@ body {
 }
 .event__info-item {
   display: flex;
-
   align-items: center;
   font-weight: 500;
 }
@@ -148,12 +148,14 @@ body {
   margin-right: 5px;
 }
 .event__info-text {
+  text-align: justify;
 }
 .events__description {
 }
 .events__more {
 }
 .events__img {
+  object-fit: cover;
   flex: 1;
   min-width: 400px;
 }
@@ -171,7 +173,7 @@ body {
 .events__img-2 {
   position: absolute;
   object-fit: cover;
-  top: 380px;
+  top: 425px;
   right: 120px;
   height: 100px;
   width: 100px;
@@ -180,8 +182,8 @@ body {
 .events__img-3 {
   position: absolute;
   object-fit: cover;
-  top: 350px;
-  right: 320px;
+  top: 450px;
+  right: 400px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -189,9 +191,80 @@ body {
 .events__img-4 {
   position: absolute;
   object-fit: cover;
-  top: 180px;
+  top: 80px;
   right: 380px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
+}
+.suscribe {
+  line-height: 1;
+  color: white;
+  justify-content: center;
+  background-color: rgb(187, 102, 240);
+  padding: 30px 80px 40px;
+}
+.suscribe__title {
+  margin-bottom: 0;
+  font-size: 50px;
+}
+.suscribe__subtitle {
+  font-size: 33px;
+  font-style: italic;
+  text-align: center;
+}
+.suscribe__cards {
+  display: flex;
+  gap: 20px;
+}
+.suscribe__card {
+  align-items: center;
+}
+.suscribe__card-title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.suscribe__card-text {
+}
+.material-symbols-outlined {
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  color: white;
+  background-color: black;
+  padding: 60px 80px;
+}
+
+.footer__colums {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_columns-block {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  max-width: 58px;
+  height: 58px;
+}
+.footer__column_content_hours {
+}
+.footer__column_content_social {
+}
+.footer__column-header {
+  margin: 0 auto 20px;
+}
+.footer__column-text {
+  margin: 0 auto 16px;
+}
+.footer__copyright {
+  margin-top: 100px;
 }
